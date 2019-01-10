@@ -1,0 +1,575 @@
+﻿body {background-color:black;
+}
+
+.div1
+{
+      width: 350px;
+    height: 150px;
+    
+    background-color: black;
+    position: relative;
+    margin: auto;
+    }
+    .img1
+    {
+        width:350px;
+        height:150px;
+        }
+        .div2
+        {
+                width: 1000px;
+    height: 50px;
+    
+    background-color: black;
+    position: relative;
+    margin: auto;
+    text-align:left;
+            }
+            .li1
+            {
+             color:White;
+          
+               font-size:25px;
+               text-decoration:none;
+               font-family:cursive;
+             
+                }
+                
+                .li1:hover
+                {
+                   color:orange
+                    }
+                    
+                    .td
+                    {
+                                        width: 1000px;
+    height: 750px;
+    
+    background-color: black;
+    position: relative;
+    margin: auto;
+    vertical-align:top;
+color:White;
+      background-image: url("resimler/iletisimarkaplan.jpg");
+
+
+                        
+                        }
+                        .label1
+                        {
+                            padding:8px;
+                            border-bottom:2px solid orange;
+                            }
+
+                           .panel
+                           {
+                               background-color:#363636;
+                        opacity:0.7;
+                        color:Black;
+                        margin-left:25px;
+                        
+                               
+                               }
+                               .panel:hover
+                               {
+                                   opacity:1;
+                                   }
+                .txtiletisim
+                {
+                    border:3px solid black;
+                  
+                    
+                }
+            
+            .ic_bolme{
+margin-top:30px;
+    float:left;
+
+    width:300px;
+
+    height:200px;
+
+    border:#CCC solid 1px;
+
+    background-color:black;
+
+    margin-right: 10px;
+
+    margin-left: 250px;
+ 
+
+   
+            }
+            .ic_bolme2
+            {
+                
+               margin-top:30px; 
+    float:left;
+
+    width:450px;
+
+    height:425px;
+
+    border:#CCC solid 1px;
+
+    background-color:transparent;
+
+    margin-right: 10px;
+
+    margin-left: 4px;
+     opacity:0.8;
+      border-radius:5%;
+     
+                }
+       
+    .labeliletisim
+    {
+        color:Orange;
+        background-color:Black;
+ 
+    
+ 
+    position: relative;
+    margin: auto;
+    padding:20px;
+  
+        }
+        
+   .imgiletisim
+   {
+       height:200px;
+       width:300px;
+       }
+      .ic_bolme:hover
+       {
+           opacity:1;
+           }
+
+.linkeposta
+{
+    text-decoration:none;
+    color:black;
+    background-color:White;
+    
+    
+    }
+    .linkeposta:hover
+    {
+        color:orange;
+        }
+        .lbliletisim
+        {
+            border-bottom:2px solid orange;
+            background-color:Black;
+            }
+          .buttoniletisim
+          {
+              background-color:black;
+              border:1px solid orange;
+              color:orange;
+              padding:5px;
+              
+              }
+              
+              .buttoniletisim:hover
+              {
+                background-color:transparent;
+                color:orange;
+                  
+                  }
+                  .txtiltsm
+                  {
+                      border:1px solid white;
+                      border-radius:5%;
+                      background-color:transparent;
+                      -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    box-shadow: 1px 1px 0 0 #FFF, 5px 5px 40px 2px #BBB inset;
+    -moz-box-shadow: 1px 1px 0 0 #FFF, 5px 5px 40px 2px #BBB inset;
+    -webkit-box-shadow: 1px 1px 0 0 #FFF, 5px 5px 40px 2px #BBB inset;
+    -webkit-background-clip: padding-box;
+    outline: 0;
+    }
+           .footerdiv
+           {
+               height:60px;
+               width:100%;
+               background-color:white;
+               vertical-align:middle;
+               
+               }
+               .hrmaster
+               {
+                   height:3px;
+           border-color:White;
+           background-color:White;
+                   }
+                     .txtiltsm::placeholder
+                     {
+                         color:white;
+                          font-weight:bold;
+                          font-size:small;
+                         
+                         }
+                   .footerdiv2
+                   {
+                        vertical-align:middle;
+                        background-color:transparent;
+                        border:none;
+                        width:773px;
+                        height:47px;
+                          position: relative;
+    margin: auto;
+    color:White;
+                       
+                       }
+                       .footerlink
+                       {
+                          background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+                           }
+                           .footerlink:hover
+                           {
+                               background-color:white;
+                               color:Red;
+                               }
+                               .sosyalbuton
+                               {
+                                   width:75px;
+                                   height:50px;
+                               
+                                   border:none;
+                                   background-color:Black;
+                                    text-decoration:none;  
+                                        opacity:0.7;                                 }
+                                    .sosyalbuton:hover
+                                    {
+                                        opacity:1;
+                                        }
+                                        .sıkcadiv
+                                        {
+                                            width:100%;
+                                            height:95px;
+                                            background-color:White;
+                                            text-align:left;
+                                            
+                                          
+                                            }
+                                            
+                                            .h1
+                                            {
+                                                float:left;
+                                                color:Black;
+                                                font-size:55px;
+                                                font-family:'Dosis', sans-serif;
+                                                margin-left:55px;
+                                                margin-top:12px;
+                                                 font-weight:inherit;
+                                                padding:5px;
+                                            
+                                                
+                                                }
+                                            
+                                            .divsık{float:right;
+                                                    width:400px;
+                                                    height:100px;
+                                                    background-color:Black;
+                                                    margin-right:35px;
+                                                    margin-top:30px;
+                                                    }
+                                                    
+                                                    .divsık2
+                                                    {
+                                                       width:1000px;
+                                                              height:350px;
+                                                              margin-left:175px;
+                                                              background-image:url("resimler/ss.png");
+                                                            
+                                                        }
+                                                        .h11
+                                                        {
+                                                            font-size:40px;
+                                                            color:Orange;
+                                                            margin-top:15px;
+                                                            margin-left:150px;
+                                                            }
+                                                            
+                                                            .imgsıkca
+                                                            {
+                                                              width:750px;
+                                                              height:200px;
+                                                              
+
+                                                                }
+                                                                .sss
+                                                                {
+                                                                    width:650px;
+                                                                    height:750px;
+                                                                    margin-left:335px;
+                                                                    margin-top:-110px;
+                                                                    background-color:black;
+                                                                    
+                                                                    }
+                                                                    .extradiv
+                                                                    {
+                                                                        height:100px;
+                                                                        background-color:Black;
+                                                                        margin-top:-25px;
+                                                                        }
+                                                                        .ssbaşla
+                                                                        {
+                                                                            font-size:30px;
+                                                                            color:white;
+                                                                            margin-top:-10px;
+                                                                            }
+                                                                            .hrssss
+                                                                            {
+                                                                                margin-left:25px;
+                                                                                width:590px;
+                                                                                
+                                                                                }
+                                                                                .ps
+                                                                                {
+                                                                                    color:White;
+                      
+                      
+                                                                                 }
+                                                                                 
+                                 .sliderdiv
+                                 {
+                                     width:100%;
+                                     height:1200px;
+                              background-color:black;
+                                     }
+                                   .sliderdiv2  {
+                                         width:750px;
+                                         height:360px;
+                                         margin:auto;
+                                         position:relative;
+                                         }
+                                   
+                          
+                                   .linkbasvur
+                                   {
+                                       background-image:url('resimler/basvuru_yap.png');
+                                        float:left;
+
+    width:300px;
+
+    height:160px;
+
+ 
+
+    margin-right: 10px;
+
+    margin-left:150px;
+                                       }
+                                          .linkatolye
+                                   {
+                                       background-image:url('resimler/garden_oyunculuk_atolyesi.png');
+                                          float:left;
+
+    width:300px;
+
+    height:160px;
+
+
+
+
+
+    margin-right: 10px;
+
+    margin-left: 4px;
+                                       }
+                                                            .linksık
+                                   {
+                                       background-image:url('resimler/sikca_sorulan_sorular.png');
+                                          float:left;
+
+    width:300px;
+
+    height:160px;
+
+
+
+
+
+    margin-right: 10px;
+
+    margin-left: 4px;
+                                       }
+                                       
+                                       .gardenatolye
+                                       {
+                                     
+                                           background-color:black;
+                                           color:White;
+                                           width:275px;
+                                           height:250px;
+                                           margin-left:150px;
+                                           margin-right:10px;
+                                           float:left;
+                                           
+                                           }
+                                           .divface
+                                           {
+                                                                            
+                                          float:left;
+
+    width:500px;
+
+    height:450px;
+
+
+background-color:Red;
+
+
+    margin-right: 10px;
+
+    margin-left: 4px;
+                                               }
+                                           
+                                           .divanasayfabanner
+                                           {
+                                               margin:auto;
+                                               position:relative;
+                                               width:950px;
+                                               height:175px;
+                                               background-image:url('resimler/banner.jpg');
+                                               }
+                .hakresim
+                {
+                            width:100%;
+                                            height:95px;
+                                            background-color:White;
+                                            text-align:left;
+                                            
+                                                              
+                    }
+                    .h1hak
+                    {
+                         float:left;
+                                                color:Black;
+                                                font-size:55px;
+                                                font-family:'Dosis', sans-serif;
+                                                margin-left:55px;
+                                                margin-top:12px;
+                                                 font-weight:inherit;
+                                                padding:5px;
+                                            
+                                            
+                        }
+                  
+             
+                   
+                    .diviciiletisim
+                    {
+                       margin-top:15px; 
+                        }
+                        .divyeter
+                        {
+                            float:right;
+                                                    width:400px;
+                                                    height:100px;
+                                                    background-color:Black;
+                                                    margin-right:35px;
+                                                    margin-top:30px;
+                            }
+                            
+                            .divhakkındaresimli
+                            {
+                                width:1000px;
+                                                              height:350px;
+                                                              margin-left:165px;
+                                                              background-image:url("resimler/1-parti-hakkmzda.jpg");
+                                                            
+                                }
+                                .divhakkımızda2
+                                {
+                                         width:650px;
+                                                                    height:1000px;
+                                                                    margin-left:342px;
+                                                                    margin-top:-110px;
+                                                                    background-color:black;
+                                                                   
+                                    }
+                                    .divkaydolbanner
+                                    {
+                                           width: 970px;
+    height:150px;
+
+ 
+    position: relative;
+    margin: auto;
+    background-image:url("resimler/indir.png")
+}
+                                        
+                                        .divtable
+                                        {
+      
+width:%100;
+background-color:black;
+color:Orange;
+height:550px;
+text-align:center;
+vertical-align:middle;
+ 
+
+                                            }
+             .başka
+             {
+                 background-color:Blue;
+                 color:White;
+                 border:none;
+                 height:35px;
+                 cursor:pointer;
+                 }
+                 
+                 .kullanıcı
+                 {
+                     float:right;
+                     width:850px;
+                     height:50px;
+                     }
+                     
+                     .buttongrss
+                     {
+                         cursor:pointer;
+                   border:none;
+                       height:20px;
+                         color:Blue;
+                         font-family:Bookman Old Style;
+                        
+                     }  
+                     
+                     .divbasvuru
+                     {
+                         width:100%;
+                         height:1400px;
+                         
+                         }
+                         .basvuruhrs
+                         {
+                             width:500px;
+                             color:Orange;
+                             margin-left:300px;
+                             }
+                       .oyuncularımmızdiv
+                       {
+                           width:100%;
+                           height:1700px;
+                       }
+                       .imageoyuncular
+                       {
+                           filter: grayscale(100%)
+                           
+                           }
+                           .imageoyuncular:hover
+                           {
+                               filter: grayscale(0)
+                               }
+                             

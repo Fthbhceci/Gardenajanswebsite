@@ -1,0 +1,99 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .style1
+        {
+            width: 350px;
+            height: 150px;
+            background-color: black;
+            position: relative;
+            margin: auto;
+            left: 0px;
+            top: 0px;
+        }
+        .style2
+        {
+            margin-bottom: 19px;
+        }
+        .style3
+        {
+            width: 1024px;
+            height: 50px;
+            background-color: black;
+            position: relative;
+            margin: auto;
+            text-align: left;
+            left: 0px;
+            top: 0px;
+        }
+        </style>
+</head>
+<body>
+    <form id="form1" runat="server" class="style2" style="color: #FFFFFF">
+    <div class="style1">
+     
+        <asp:Image ID="Image1" runat="server" CssClass="img1" 
+            ImageUrl="~/resimler/sitelogo.png" />
+     
+    </div>
+
+    <div class="style3">
+       
+        <a class="li1" href="Anasayfa.aspx">Anasayfa</a>&nbsp;&nbsp;&nbsp;
+        <a class="li1" href="Basvuru.aspx">Başvuru</a>&nbsp;&nbsp;&nbsp; <a class="li1" 
+            href="Oyuncularımız.aspx">Oyuncularımız</a>&nbsp;&nbsp;&nbsp; <a class="li1" 
+            href="Hakkımızda.aspx">Hakkımızda</a>&nbsp;&nbsp;&nbsp; <a class="li1" 
+            href="Sık.aspx">S.S.S</a>&nbsp;&nbsp;&nbsp; <a class="li1" 
+            href="İletisim.aspx">İletişim</a>&nbsp;&nbsp;&nbsp; <a class="li1" 
+            href="Kaydol.aspx">Kayıt Ol</a>&nbsp; <a class="li1" 
+            href="Kayıtislemleri.aspx">Kayıt İşlemleri</a></div>
+            
+            <br />
+            <br />
+              <br />
+
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+    <br />
+    <div class="footerdiv">&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span style="color:black; font-family: &quot;Trebuchet MS&quot;, &quot;Lucida Sans Unicode&quot;, &quot;Lucida Grande&quot;, &quot;Lucida Sans&quot;, Arial, sans-serif; font-size: 22px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(255, 255, 255); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">
+        Çalışma Saatlerimiz : Pazartesi-Cumartesi 10:30-19:30 Pazar 11:00-17:00<br />
+        <br />
+        </span></div>
+        <br />
+        <hr class="hrmaster" />
+    <br />
+    <br />
+    <div class="footerdiv2">&nbsp;<a class="footerlink" href="Anasayfa.aspx">Anasayfa</a><a 
+            class="footerlink" href="Basvuru.aspx">Başvuru</a><a class="footerlink" 
+            href="Oyuncularımız.aspx">Oyuncularımız</a><a class="footerlink" 
+            href="Hakkımızda.aspx">Hakkımızda</a><a class="footerlink" href="Sık.aspx">S.S.S</a><a 
+            class="footerlink" href="İletisim.aspx">İletişim</a><a class="footerlink" 
+            href="Kayıtol.aspx">Kaydol</a></div>
+        <br />
+         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span 
+        style="color: rgba(255, 255, 255, 0.7); vertical-align:middle; font-family: &quot;Open Sans&quot;; font-size: 15px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgba(0, 0, 0, 0.35); text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; </span><a href="https://www.facebook.com/"><img 
+        src="resimler/face.png" class="sosyalbuton"></a>
+ <a href="https://twitter.com/Fthbhceci">
+
+<img src="resimler/Twitter.png" class="sosyalbuton"></a>
+
+         <br />
+    <br />
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 
+  <span style="vertical-align:middle";>  Copyright © 2017 - Fatih Bahçeçi</span><br />
+        </form>
+
+
+
+</body>
+</html>
